@@ -1,4 +1,5 @@
 
+// update
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
@@ -34,8 +35,7 @@ public class MyFileWriter {
         }
 
         // 4. Using BufferedOutputStream
-        try (BufferedOutputStream bufferedOutputStream =
-                new BufferedOutputStream(new FileOutputStream(fileName4))) {
+        try (BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(new FileOutputStream(fileName4))) {
             bufferedOutputStream.write(data.getBytes());
         } catch (IOException e) {
             e.printStackTrace();
