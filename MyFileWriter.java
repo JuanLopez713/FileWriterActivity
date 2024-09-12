@@ -54,4 +54,9 @@ public class MyFileWriter {
 
         System.out.println("hello world");
     }
+
+    public static void printFileSize(String filename) {
+        // implement my print filesize
+
+    }
 }
