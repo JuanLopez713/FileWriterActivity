@@ -57,6 +57,11 @@ public class MyFileWriter {
 
     public static void printFileSize(String filename) {
         // implement my print filesize
+        File file = new File(filename);
+        long fileSize = file.length();
+        System.out.println(fileSize);
+
+        // long fileSize = new File(filename).length();
 
     }
 }
